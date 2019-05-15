@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<style type='text/css'>
+   .contoh1 { font-size:16px;color:#fff}
+</style>
+
+<title>Hacker</title>
+<b:skin><![CDATA[
+.author-box {background: trasnparent;margin:50px;height:50px;width:700px;color:#888;font-family:verdana, sans-serif;}.author-box p {margin: 50px;padding: 1px;}.author-box a{color:#transparent;}.author-box img {background: transparent;float: left;margin: 10px;padding: 0px;}]]></b:skin>
+</head>
+<body background='http://2.bp.blogspot.com/-hMjiiOBcOoA/U-eZe_VawQI/AAAAAAAAEw4/EjxUW6QmdzE/s1600/Anonymous+Wallpaper+by+PCbots.png'>
+  <br/>
+ 
+  <center><img height='100' src='http://4.bp.blogspot.com/-BR7nQ0J7BcM/UiS1vg8RVSI/AAAAAAAAACo/0HyhqILKhW0/s1600/AnonymousLogo.png' title='Sed lyf' width='100'/></center>
+  <center><p class='contoh1'>Defaced By : </p><a href='' style='color:black;'>EVIL SLAYER</a></center>
+  <br/>
+<div>
+<center>
+  <font Face='courier' color='red' size='5'>Hi man</font><font color='white' face='courier' size='5'> , Your Website Has Been Hacked</font></center></div>
+<center>
+<div class='author-box'>
+<p><br/>
+&quot;Smile, because it confuses people. Smile, because it's easier than explaining what is killing you inside.&quot;<br/></p>
+</div>
+</center>
+  <br/>
+<div><center>
+<font color='Red' face='Arial' size='5'>SED</font> <font color='white' face='Arial' size='5'> LYF</font>
+  </center>
+  </div>
+  <br/>
+<div><center>
+<img height='200' src='http://img07.deviantart.net/3490/i/2012/024/0/0/anonymous_by_exozaga-d4nizqi.jpg' title='ANON' width='300'/>
+  </center>
+  </div>
+<iframe frameborder='no' height='100' scrolling='no' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/444079296&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true' style='display: none;' width='200'/>
+<b:section id='Hacker'>
+  <b:widget id='HTML2' locked='false' title='' type='HTML'>
+    <b:widget-settings>
+      <b:widget-setting name='content'>&lt;script language=&#39;JavaScript1.2&#39;&gt;
+function disableselect(e){
+return false
+}
+function reEnable(){
+return true
+}
+document.onselectstart=new Function (&quot;return false&quot;)
+if (window.sidebar){
+document.onmousedown=disableselect
+document.onclick=reEnable
+}
+&lt;/script&gt;</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+  </b:widget>
+  <b:widget id='HTML1' locked='false' title='' type='HTML'>
+    <b:widget-settings>
+      <b:widget-setting name='content'>&lt;script&gt; var message=&quot;HACKED BY EVIL SLAYER&quot;;
+///////////////////////////////////
+function clickIE4(){if (event.button==2){alert(message);return false;}} function clickNS4(e){if (document.layers||document.getElementById&amp;&amp;!document.all){if (e.which==2||e.which==3){alert(message);return false;}}} if (document.layers){document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS4;} else if (document.all&amp;&amp;!document.getElementById){document.onmousedown=clickIE4;} document.oncontextmenu=new Function(&quot;alert(message);return false&quot;)&lt;/script&gt;</b:widget-setting>
+    </b:widget-settings>
+    <b:includable id='main'>
+  <!-- only display title if it's non-empty -->
+  <b:if cond='data:title != &quot;&quot;'>
+    <h2 class='title'><data:title/></h2>
+  </b:if>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+
+  <b:include name='quickedit'/>
+</b:includable>
+  </b:widget>
+</b:section>
+</body>
+</html>
